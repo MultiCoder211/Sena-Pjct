@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+
+body{
+    font-family: 'Montserrat', sans-serif;
+    padding: 60px 5px 0;
+    background-color:rgb(17, 17, 17);
+}
+
+.banner__title {
+    background-color:whitesmoke;
+    height: 60px;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+}
+.nav__info,.banner__cta, .welcome__cta{
+    color:whitesmoke;
+    font-size: 18px;
+    margin: 0 10px;
+    line-height: 30px;
+    text-transform: uppercase;
+    width: max-content;
+}
+.about__paragraph, .welcome_copy, .numero{
+    color:rgb(255, 0, 150);
+    font-size: 14px;
+    margin: 0 5px;
+    line-height: 10px;
+    text-transform: uppercase;
+    width: max-content;
+}
+.banner__subtitle, .subtitle{
+    color:rgb(20, 190, 190);
+}
+.nav__info,.banner__cta, .welcome__cta{
+    padding: 4px 6px;
+}
+.nav__info,.banner__cta, .welcome__cta:hover{
+    text-decoration:none;
+    transition: 0.5ms;
+}
+.banner__title{
+    color: rgb(255, 0, 150);
+    font-size: 50px;
+    text-decoration: none;
+}
+.containerscroll{
+    max-height: 400px;
+    display: grid;
+    grid-template-columns: 15% 15% 15% 15% 15% 15% 15% 15% 15% 15%;
+    overflow:auto
+}
+.grid__scroll{
+    display: block;
+    color: rgb(255, 0, 150);
+}
+.product__image{
+    max-width: 200px;
+    max-height: 180px;
+}
+img{
+    margin: auto;
+    display: block;
+    max-width: 100%;
+    max-height: 100%;
+}
+.banner__wave{
+    margin-top: 15%;
+}
+.desc{
+    color:rgb(20, 190, 190);
+}
+.name{
+    margin-top: 30px;
+}
